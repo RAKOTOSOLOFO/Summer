@@ -1,5 +1,5 @@
 body{
-background-color: green;
+
 }
 header {
     background-color: black;
@@ -17,14 +17,13 @@ h1, p {
     color: white;
 }
 button{
-    text-align: center;
+    display: block;
+    margin: auto;
 }
 h2{
-
+text-align: center;
 }
 
-
-
 footer{
-    background-color: blue;
+    background-color: #0f3e57;
 }
