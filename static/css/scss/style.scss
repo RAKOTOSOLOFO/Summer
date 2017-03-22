@@ -6,15 +6,15 @@ header {
     background-color: black;
     height: 20em;
 
+    ul {
+        text-align: center;
+        list-style: none;
+    }
+
     h1,
     p {
         text-align: center;
         color: white;
-    }
-
-    ul {
-        text-align: center;
-        list-style: none;
     }
 
     button {
@@ -23,10 +23,6 @@ header {
         height: 4em;
         width: 15em;
     }
-}
-
-img {
-    box-shadow: 5px 5px 0 #aaa;
 }
 
 nav {
@@ -38,8 +34,17 @@ nav {
     }
 }
 
+img {
+    box-shadow: 5px 5px 0 #aaa;
+}
+
 .os {
     color: yellow;
+}
+
+h2 {
+    text-align: center;
+    margin: 9 2 0 0;
 }
 
 h3,
@@ -52,31 +57,21 @@ input {
     width: 50%;
 }
 
-h2 {
-    text-align: center;
-    margin: 9 2 0 0px;
-}
-
 footer {
     background-color: $color-background;
     height: 15em;
 
     h6 {
-        display: block;
-        text-align: center;
         color: white;
-    }
-    ul li {
-        display: block;
-        align-items: center;
     }
 
-    li {
-        display: block;
-        color: white;
-        text-align: center;
-        margin-right: 3em;
-        float: left;
+    ul {
+        padding-left: 0;
+
+        li {
+            color: grey;
+            list-style: none;
+        }
     }
 
     button {
@@ -86,5 +81,4 @@ footer {
         height: 2em;
         color: grey;
     }
-
 }
