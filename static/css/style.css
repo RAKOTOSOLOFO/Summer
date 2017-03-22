@@ -26,24 +26,39 @@ nav {
 .os {
   color: yellow; }
 
+h3,
+h5,
+p {
+  padding-left: 1.5rem; }
+
 input {
   width: 50%; }
 
 h2 {
   text-align: center;
-  margin: 5 2 0 0; }
+  margin: 9 2 0 0px; }
 
 footer {
-  background-color: #0f3e57; }
+  background-color: #0f3e57;
+  height: 15em; }
   footer h6 {
     display: block;
     text-align: center;
     color: white; }
+  footer ul li {
+    display: block;
+    align-items: center; }
   footer li {
     display: block;
     color: white;
     text-align: center;
     margin-right: 3em;
     float: left; }
+  footer button {
+    background-color: #0f3e57;
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 2em;
+    color: grey; }
 
 /*# sourceMappingURL=style.css.map */

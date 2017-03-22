@@ -1,16 +1,16 @@
-body {
-    
-}
+$color-background: #0f3e57;
+
+body {}
 
 header {
     background-color: black;
+    height: 20em;
 
     h1,
     p {
         text-align: center;
         color: white;
     }
-    height: 20em;
 
     ul {
         text-align: center;
@@ -42,22 +42,33 @@ nav {
     color: yellow;
 }
 
+h3,
+h5,
+p {
+    padding-left: 1.5rem;
+}
+
 input {
     width: 50%;
 }
 
 h2 {
     text-align: center;
-    margin: 5 2 0 0;
+    margin: 9 2 0 0px;
 }
 
 footer {
-    background-color: #0f3e57;
+    background-color: $color-background;
+    height: 15em;
 
     h6 {
         display: block;
         text-align: center;
         color: white;
+    }
+    ul li {
+        display: block;
+        align-items: center;
     }
 
     li {
@@ -67,4 +78,13 @@ footer {
         margin-right: 3em;
         float: left;
     }
+
+    button {
+        background-color: $color-background;
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 2em;
+        color: grey;
+    }
+
 }
