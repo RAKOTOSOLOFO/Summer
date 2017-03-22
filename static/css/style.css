@@ -20,18 +20,19 @@ nav {
     display: inline;
     padding: 2em; }
 
-img {
-  box-shadow: 5px 5px 0 #aaa; }
+.col-md-2 {
+  background-color: black;
+  margin: 2px 2px 2px 2px; }
 
 .os {
   color: yellow; }
 
 h2 {
   text-align: center;
-  margin: 9 2 0 0; }
+  margin: 15px 2px 0 0; }
 
 h3,
-h5,
+h4,
 p {
   padding-left: 1.5rem; }
 
@@ -41,13 +42,16 @@ input {
 footer {
   background-color: #0f3e57;
   height: 15em; }
-  footer h6 {
-    color: white; }
+  footer h5 {
+    color: white;
+    margin-top: 7em; }
   footer ul {
     padding-left: 0; }
     footer ul li {
       color: grey;
       list-style: none; }
+    footer ul i {
+      margin-right: 1.5em; }
   footer button {
     background-color: #0f3e57;
     border: 1px solid grey;

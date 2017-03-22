@@ -34,8 +34,12 @@ nav {
     }
 }
 
-img {
-    box-shadow: 5px 5px 0 #aaa;
+
+.col-md-2 {
+
+     background-color:black;
+     margin: 2px 2px 2px 2px ;
+
 }
 
 .os {
@@ -44,11 +48,11 @@ img {
 
 h2 {
     text-align: center;
-    margin: 9 2 0 0;
+    margin: 15px 2px 0 0;
 }
 
 h3,
-h5,
+h4,
 p {
     padding-left: 1.5rem;
 }
@@ -61,8 +65,9 @@ footer {
     background-color: $color-background;
     height: 15em;
 
-    h6 {
+    h5 {
         color: white;
+        margin-top: 7em;
     }
 
     ul {
@@ -71,6 +76,10 @@ footer {
         li {
             color: grey;
             list-style: none;
+        }
+
+        i {
+            margin-right: 1.5em;
         }
     }
 
