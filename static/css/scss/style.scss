@@ -1,34 +1,42 @@
-body{
+body {}
 
-}
 header {
     background-color: black;
 }
-nav{
-        text-align: center;
+
+nav {
+    text-align: center;
 }
-nav li{
+
+nav li {
     display: inline;
-    padding-bottom:2em;
     padding: 2em;
 }
+
 ul {
     text-align: center;
     list-style: none;
-
 }
-h1, p {
+
+h1,
+p {
     text-align: center;
     color: white;
 }
-button{
+
+button {
     display: block;
     margin: auto;
 }
-h2{
-text-align: center;
+
+h2 {
+    text-align: center;
 }
 
-footer{
+footer {
     background-color: #0f3e57;
+
+}
+footer h3 ul{
+    color:white;
 }
